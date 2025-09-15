@@ -1,0 +1,108 @@
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+/* Encabezado */
+header {
+    background: #333;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    background-image: url('RUTA/A/TU/IMAGEN_DE_FONDO.jpg'); /* **SUSTITUIR**: Agrega una imagen de fondo atractiva */
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px #000;
+}
+
+/* Galería */
+#gallery {
+    padding: 20px 0;
+}
+
+.gallery-item {
+    margin-bottom: 40px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.gallery-item h3 {
+    text-align: center;
+    color: #333;
+}
+
+model-viewer {
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+/* Sobre Mí */
+#about {
+    text-align: center;
+    padding: 40px 0;
+    background: #fff;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Contacto */
+#contact {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.button {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background: #555;
+}
+
+/* Pie de Página */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}```

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Nombre - Catálogo de Figuras 3D</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Mis Creaciones 3D</h1>
+            <p>Un vistazo a mi mundo de modelado y diseño tridimensional</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="gallery">
+            <h2>Galería de Modelos</h2>
+
+            <!-- ===== INICIA SECCIÓN PARA SUSTITUIR - MODELO 1 ===== -->
+            <div class="gallery-item">
+                <h3>Nombre de tu Figura 1</h3>
+                <!-- **SUSTITUIR**: Cambia 'modelo1.gltf' por la ruta a tu archivo de modelo 3D. -->
+                <!-- **SUSTITUIR**: Cambia 'poster1.png' por la ruta a una imagen de vista previa de tu modelo. -->
+                <model-viewer src="RUTA/A/TU/MODELO1.gltf"
+                              poster="RUTA/A/TU/IMAGEN_PREVIA1.png"
+                              alt="Descripción de tu figura 1"
+                              auto-rotate
+                              camera-controls>
+                </model-viewer>
+                <p>Aquí puedes agregar una breve descripción de tu figura 3D. Habla sobre el concepto, el software que utilizaste, o cualquier detalle interesante.</p>
+            </div>
+            <!-- ===== FINALIZA SECCIÓN PARA SUSTITUIR - MODELO 1 ===== -->
+
+            <!-- ===== INICIA SECCIÓN PARA SUSTITUIR - MODELO 2 ===== -->
+            <div class="gallery-item">
+                <h3>Nombre de tu Figura 2</h3>
+                <!-- **SUSTITUIR**: Cambia 'modelo2.gltf' por la ruta a tu archivo de modelo 3D. -->
+                <!-- **SUSTITUIR**: Cambia 'poster2.png' por la ruta a una imagen de vista previa de tu modelo. -->
+                <model-viewer src="RUTA/A/TU/MODELO2.gltf"
+                              poster="RUTA/A/TU/IMAGEN_PREVIA2.png"
+                              alt="Descripción de tu figura 2"
+                              auto-rotate
+                              camera-controls>
+                </model-viewer>
+                <p>Aquí puedes agregar una breve descripción de tu figura 3D.</p>
+            </div>
+            <!-- ===== FINALIZA SECCIÓN PARA SUSTITUIR - MODELO 2 ===== -->
+
+            <!-- ===== AGREGA MÁS MODELOS AQUÍ ===== -->
+            <!-- Para agregar más modelos, simplemente copia y pega una de las secciones de "gallery-item" y sustituye los valores. -->
+
+        </section>
+
+        <section id="about">
+            <h2>Sobre Mí</h2>
+            <!-- ===== INICIA SECCIÓN PARA SUSTITUIR - SOBRE MÍ ===== -->
+            <img src="RUTA/A/TU/FOTO_DE_PERFIL.jpg" alt="Tu Nombre" class="profile-pic">
+            <p>¡Hola! Soy [Tu Nombre], un apasionado artista 3D especializado en [Tu Especialidad]. Me encanta dar vida a ideas y conceptos a través del modelado tridimensional. En este espacio podrás encontrar una selección de mis trabajos más recientes.</p>
+            <!-- ===== FINALIZA SECCIÓN PARA SUSTITUIR - SOBRE MÍ ===== -->
+        </section>
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>¿Interesado en una colaboración o una pieza personalizada? ¡Contáctame!</p>
+            <!-- ===== INICIA SECCIÓN PARA SUSTITUIR - CONTACTO ===== -->
+            <a href="mailto:tuemail@example.com" class="button">Envíame un Correo</a>
+            <!-- ===== FINALIZA SECCIÓN PARA SUSTITUIR - CONTACTO ===== -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <!-- ===== INICIA SECCIÓN PARA SUSTITUIR - REDES SOCIALES ===== -->
+            <p>&copy; 2025 - Tu Nombre | Sígueme en:
+                <a href="https://www.instagram.com/tu_usuario/" target="_blank">Instagram</a> |
+                <a href="https://www.artstation.com/tu_usuario/" target="_blank">ArtStation</a>
+            </p>
+            <!-- ===== FINALIZA SECCIÓN PARA SUSTITUIR - REDES SOCIALES ===== -->
+        </div>
+    </footer>
+
+    <!-- Importa la librería de model-viewer -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+</body>
+</html>
