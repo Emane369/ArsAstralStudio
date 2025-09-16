@@ -1,90 +1,74 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tu Nombre - Catálogo de Figuras 3D</title>
+    <title>Ars Caelestis - Your 3D Figures Gallery</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <div class="container">
-            <h1>Mis Creaciones 3D</h1>
-            <p>Un vistazo a mi mundo de modelado y diseño tridimensional</p>
+        <div class="hero-section">
+            <div id="stars"></div>
+            <div class="hero-text">
+                <h1>Ars Caelestis</h1>
+                <p>A Celestial Gallery of 3D Figures</p>
+            </div>
         </div>
     </header>
 
-    <main class="container">
+    <main>
         <section id="gallery">
-            <h2>Galería de Modelos</h2>
+            <h2>Gallery</h2>
+            <div class="gallery-container">
+                <!-- =============================================================== -->
+                <!--           ADD YOUR IMAGES HERE                                  -->
+                <!-- To add an image, copy the following line and paste it below.  -->
+                <!-- Replace 'path/to/your/image.jpg' with the actual path to your -->
+                <!-- image file. Replace 'Figure 1' with a title for your work.  -->
+                <!-- =============================================================== -->
+                <div class="gallery-item"><img src="path/to/your/image1.jpg" alt="Figure 1"></div>
+                <div class="gallery-item"><img src="path/to/your/image2.jpg" alt="Figure 2"></div>
+                <div class="gallery-item"><img src="path/to/your/image3.jpg" alt="Figure 3"></div>
+                <!-- Add more gallery items as needed -->
 
-            <!-- ===== INICIA SECCIÓN PARA SUSTITUIR - MODELO 1 ===== -->
-            <div class="gallery-item">
-                <h3>Nombre de tu Figura 1</h3>
-                <!-- **SUSTITUIR**: Cambia 'modelo1.gltf' por la ruta a tu archivo de modelo 3D. -->
-                <!-- **SUSTITUIR**: Cambia 'poster1.png' por la ruta a una imagen de vista previa de tu modelo. -->
-                <model-viewer src="RUTA/A/TU/MODELO1.gltf"
-                              poster="RUTA/A/TU/IMAGEN_PREVIA1.png"
-                              alt="Descripción de tu figura 1"
-                              auto-rotate
-                              camera-controls>
-                </model-viewer>
-                <p>Aquí puedes agregar una breve descripción de tu figura 3D. Habla sobre el concepto, el software que utilizaste, o cualquier detalle interesante.</p>
             </div>
-            <!-- ===== FINALIZA SECCIÓN PARA SUSTITUIR - MODELO 1 ===== -->
-
-            <!-- ===== INICIA SECCIÓN PARA SUSTITUIR - MODELO 2 ===== -->
-            <div class="gallery-item">
-                <h3>Nombre de tu Figura 2</h3>
-                <!-- **SUSTITUIR**: Cambia 'modelo2.gltf' por la ruta a tu archivo de modelo 3D. -->
-                <!-- **SUSTITUIR**: Cambia 'poster2.png' por la ruta a una imagen de vista previa de tu modelo. -->
-                <model-viewer src="RUTA/A/TU/MODELO2.gltf"
-                              poster="RUTA/A/TU/IMAGEN_PREVIA2.png"
-                              alt="Descripción de tu figura 2"
-                              auto-rotate
-                              camera-controls>
-                </model-viewer>
-                <p>Aquí puedes agregar una breve descripción de tu figura 3D.</p>
-            </div>
-            <!-- ===== FINALIZA SECCIÓN PARA SUSTITUIR - MODELO 2 ===== -->
-
-            <!-- ===== AGREGA MÁS MODELOS AQUÍ ===== -->
-            <!-- Para agregar más modelos, simplemente copia y pega una de las secciones de "gallery-item" y sustituye los valores. -->
-
         </section>
 
         <section id="about">
-            <h2>Sobre Mí</h2>
-            <!-- ===== INICIA SECCIÓN PARA SUSTITUIR - SOBRE MÍ ===== -->
-            <img src="RUTA/A/TU/FOTO_DE_PERFIL.jpg" alt="Tu Nombre" class="profile-pic">
-            <p>¡Hola! Soy [Tu Nombre], un apasionado artista 3D especializado en [Tu Especialidad]. Me encanta dar vida a ideas y conceptos a través del modelado tridimensional. En este espacio podrás encontrar una selección de mis trabajos más recientes.</p>
-            <!-- ===== FINALIZA SECCIÓN PARA SUSTITUIR - SOBRE MÍ ===== -->
+            <h2>About the Museum</h2>
+            <!-- =============================================================== -->
+            <!--           ADD YOUR PERSONAL MODIFICATIONS HERE                  -->
+            <!-- Replace the text below with a description of your work, your  -->
+            <!-- artistic vision, or any other information you want to share.  -->
+            <!-- =============================================================== -->
+            <p>Welcome to Ars Caelestis, a digital museum dedicated to the art of 3D figures. Each piece is a testament to the boundless creativity of the cosmos, crafted with passion and precision. Explore the gallery and immerse yourself in a universe of imagination.</p>
         </section>
 
         <section id="contact">
-            <h2>Contacto</h2>
-            <p>¿Interesado en una colaboración o una pieza personalizada? ¡Contáctame!</p>
-            <!-- ===== INICIA SECCIÓN PARA SUSTITUIR - CONTACTO ===== -->
-            <a href="mailto:tuemail@example.com" class="button">Envíame un Correo</a>
-            <!-- ===== FINALIZA SECCIÓN PARA SUSTITUIR - CONTACTO ===== -->
+            <h2>Contact</h2>
+            <p>For inquiries and commissions, feel free to reach out.</p>
+            <div class="contact-links">
+                <!-- =============================================================== -->
+                <!--           ADD YOUR PERSONAL MODIFICATIONS HERE                  -->
+                <!-- Replace 'your_phone_number' with your WhatsApp number         -->
+                <!-- including the country code (e.g., 1234567890).                 -->
+                <!-- For future social media, uncomment the lines and replace '#'  -->
+                <!-- with your profile links.                                      -->
+                <!-- =============================================================== -->
+                <a href="https://wa.me/your_phone_number" class="whatsapp-button" target="_blank">WhatsApp</a>
+                <!-- <a href="#" class="social-icon" id="instagram"></a> -->
+                <!-- <a href="#" class="social-icon" id="facebook"></a> -->
+                <!-- <a href="#" class="social-icon" id="tiktok"></a> -->
+            </div>
         </section>
     </main>
 
     <footer>
-        <div class="container">
-            <!-- ===== INICIA SECCIÓN PARA SUSTITUIR - REDES SOCIALES ===== -->
-            <p>&copy; 2025 - Tu Nombre | Sígueme en:
-                <a href="https://www.instagram.com/tu_usuario/" target="_blank">Instagram</a> |
-                <a href="https://www.artstation.com/tu_usuario/" target="_blank">ArtStation</a>
-            </p>
-            <!-- ===== FINALIZA SECCIÓN PARA SUSTITUIR - REDES SOCIALES ===== -->
-        </div>
+        <p>&copy; 2025 Ars Caelestis. All Rights Reserved.</p>
     </footer>
 
-    <!-- Importa la librería de model-viewer -->
-    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
-
+    <script src="script.js"></script>
 </body>
 </html>

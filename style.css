@@ -1,108 +1,114 @@
-/* Estilos Generales */
 body {
-    font-family: 'Arial', sans-serif;
+    background-color: #0a0a2a;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    padding: 0;
 }
 
-.container {
-    max-width: 960px;
-    margin: auto;
-    overflow: hidden;
-    padding: 0 20px;
-}
-
-/* Encabezado */
 header {
-    background: #333;
-    color: #fff;
-    padding: 2rem 0;
     text-align: center;
-    background-image: url('RUTA/A/TU/IMAGEN_DE_FONDO.jpg'); /* **SUSTITUIR**: Agrega una imagen de fondo atractiva */
-    background-size: cover;
-    background-position: center;
+    padding: 100px 0;
+    background: linear-gradient(to bottom, #1a1a4a, #0a0a2a);
+    position: relative;
+    overflow: hidden;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 3rem;
-    text-shadow: 2px 2px 4px #000;
+.hero-section {
+    position: relative;
 }
 
-/* Galería */
-#gallery {
-    padding: 20px 0;
-}
-
-.gallery-item {
-    margin-bottom: 40px;
-    background: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-.gallery-item h3 {
-    text-align: center;
-    color: #333;
-}
-
-model-viewer {
+#stars {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 400px;
-    margin: auto;
-    border-radius: 8px;
+    height: 100%;
+    background: transparent;
+    z-index: 0;
 }
 
-/* Sobre Mí */
+.hero-text {
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 10px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ffcc00; /* Bright accent color */
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ffcc00;
+}
+
 #about {
     text-align: center;
-    padding: 40px 0;
-    background: #fff;
+    max-width: 800px;
+    margin: 40px auto;
 }
 
-.profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 20px;
-}
-
-/* Contacto */
 #contact {
     text-align: center;
-    padding: 40px 0;
 }
 
-.button {
-    display: inline-block;
-    background: #333;
-    color: #fff;
-    padding: 10px 20px;
+.contact-links a {
     text-decoration: none;
+    color: #ffffff;
+    background-color: #ffcc00;
+    padding: 10px 20px;
     border-radius: 5px;
+    margin: 0 10px;
     transition: background-color 0.3s ease;
 }
 
-.button:hover {
-    background: #555;
+.contact-links .whatsapp-button {
+    background-color: #25d366;
 }
 
-/* Pie de Página */
+.contact-links a:hover {
+    background-color: #cca300;
+}
+
+.contact-links .whatsapp-button:hover {
+    background-color: #1da851;
+}
+
 footer {
-    background: #333;
-    color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px;
+    background-color: #1a1a4a;
 }
-
-footer a {
-    color: #fff;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}```
